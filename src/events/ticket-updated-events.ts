@@ -1,6 +1,6 @@
-import Subjects from "./enums/subjects";
+import { Subjects } from "./enums/subjects";
 
-interface TicketUpdatedEvent {
+export interface TicketUpdatedEvent {
     subject: Subjects.TicketUpdated,
     data: {
         id: string;
@@ -8,6 +8,4 @@ interface TicketUpdatedEvent {
         price: number;
         userId: string;
     }
-}
-
-export default TicketUpdatedEvent;
+};

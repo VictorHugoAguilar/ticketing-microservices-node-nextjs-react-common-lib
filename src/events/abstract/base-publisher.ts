@@ -1,12 +1,12 @@
-import { Message, Stan } from 'node-nats-streaming';
-import Subjects from '../enums/subjects';
+import { Stan } from 'node-nats-streaming';
+import { Subjects } from '../enums/subjects';
 
 interface Event {
     subject: Subjects;
     data: any;
 }
 
-abstract class Publisher<T extends Event> {
+export abstract class Publisher<T extends Event> {
     abstract subject: T['subject'];
     private client: Stan;
 
@@ -26,7 +26,4 @@ abstract class Publisher<T extends Event> {
             });
         })
     }
-}
-
-
-export default Publisher;
+};
