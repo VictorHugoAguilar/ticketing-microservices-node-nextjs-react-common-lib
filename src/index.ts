@@ -18,6 +18,7 @@ export * from './events/ticket-updated-events';
 export * from './events/order-created-events';
 export * from './events/order-cancelled-events';
 export * from './events/expiration-complete-event';
+export * from './events/payment-created-event';
 
 export * from './events/enums/subjects';
 export * from './events/enums/order-status';
