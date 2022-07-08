@@ -1,6 +1,6 @@
 {
   "name": "@black_sheep/common",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Shared library of ticketing",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
