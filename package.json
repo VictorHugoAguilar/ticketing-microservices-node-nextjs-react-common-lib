@@ -1,5 +1,5 @@
 {
-  "name": "@black_sheep/common",
+  "name": "@black_sheeps/common",
   "version": "1.0.15",
   "description": "Shared library of ticketing",
   "main": "./build/index.js",
